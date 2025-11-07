@@ -70,3 +70,23 @@ touristapp/
 ├── 06_route_trend_analysis.py # Year-wise trend analysis
 ├── analysis_and_prediction.py # Combined predictive analysis
 └── *.parquet / *.png / *.txt # Generated data and output files
+
+---
+
+
+---
+
+## 🖥️ How to Run
+
+```bash
+# Step 1 — Open Ubuntu terminal
+cd "/mnt/c/Users/DELL/OneDrive/Desktop/data stimulate/touristapp"
+
+# Step 2 — Run the ETL and analysis scripts
+python3 etl_pipeline_save_to_onedrive.py
+python3 01_load_and_eda.py
+python3 02_merge_and_analysis.py
+python3 03_prediction_model.py
+python3 04_feature_engineering_and_forecasting.py
+python3 05_route_analysis.py
+python3 06_route_trend_analysis.py
