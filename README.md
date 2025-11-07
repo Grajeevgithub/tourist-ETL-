@@ -59,3 +59,14 @@ To build an end-to-end pipeline that:
 
 ## 📂 Project Folder Structure
 
+touristapp/
+│
+├── etl_pipeline_save_to_onedrive.py # Extract & save MySQL data to OneDrive
+├── 01_load_and_eda.py # Load and explore cleaned data
+├── 02_merge_and_analysis.py # Merge and analyze datasets
+├── 03_prediction_model.py # Train and evaluate model
+├── 04_feature_engineering_and_forecasting.py # Forecasting & visualization
+├── 05_route_analysis.py # Transport route insights
+├── 06_route_trend_analysis.py # Year-wise trend analysis
+├── analysis_and_prediction.py # Combined predictive analysis
+└── *.parquet / *.png / *.txt # Generated data and output files
