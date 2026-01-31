@@ -1,4 +1,4 @@
-# 🌍 Tourist Data ETL & Analysis Projec
+# 🌍 Tourist Data ETL & Analysis Project
 
 This project presents a complete **Data Engineering and Analysis pipeline** for tourism data using **Python, MySQL, and Power BI**.  
 It automates data extraction, cleaning, transformation, and visualization — delivering deep insights into bookings, transport modes, and yearly travel trends.
